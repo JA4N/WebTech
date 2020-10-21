@@ -1,0 +1,7 @@
+https://e-learning.hdm-stuttgart.de/moodle/course/view.php?id=2066
+
+https:// = Verwendetes Kommunikationsprotokoll mit Trasportverschlüsselung / Schema
+e-learning.hdm-stuttgart.de = Hostname, wird vom DNS in IP-Adresse umgewandelt
+/moodle/course/ = Verzeichnispfad 
+view.php = Datei
+?id=2066 = Query
