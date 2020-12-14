@@ -1,0 +1,14 @@
+Aufgabe 1:
+*querySelector*
+-> Gibt den ersten übereinstimmenden Elementknoten im Subtree des Knotens zurück. Wenn kein passender Knoten gefunden wird, wird NULL zurückgegeben.
+
+*getElementByID*
+-> Gibt einen Verweis auf das Element anhand seiner ID zurück. Wenn sich das Element mit der angegebenen ID nicht im Dokument befindet, wird NULL zurückgegeben.
+
+
+Aufgabe 2:
+Ein Dokumentknoten stellt die gesamte Baumstruktur dar.
+Ein Dokumentfragmentknoten stellt einen Teil der Baumstruktur dar.
+Ein Elementknoten entspricht exakt einem Element in HTML oder XML.
+Ein Attributknoten entspricht exakt einem Attribut in HTML oder XML.
+Ein Textknoten stellt den Textinhalt eines Elements dar.

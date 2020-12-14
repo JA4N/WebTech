@@ -1,0 +1,69 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   justify-items: center;
+   display: grid;
+}
+img{
+    
+}
+.webtitel{
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.navigator{
+    background-color: #f44336;
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+}
+.navigator:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.headline{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table{
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px;
+    margin: 8px;
+
+}
+.tableHeading{
+    background-color: #ffa600;
+    color: white;
+}
+
+.tableZebra{
+    background-color: #f2f2f2;
+}
+
+#bildtext{
+    font-size: 20px;
+}
+
+#greenmile:hover{
+    width: 270px;
+    height: 420px;
+    transition: 1s;
+    opacity: 0.5;  
+}
+
+#inception:hover{
+    width: 270px;
+    height: 420px;
+    transition: 1s;
+    opacity: 0.5;  
+}
+
+#bambi:hover{
+    width: 270px;
+    height: 420px;
+    transition: 1s;
+    opacity: 0.5;  
+}

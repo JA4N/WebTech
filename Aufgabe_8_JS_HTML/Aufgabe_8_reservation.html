@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Filme&Mehr</title>
+  <link rel="stylesheet" type="text/css" href="Aufgabe_8.css">
+  <link rel="stylesheet" type="text/css" href="Aufgabe_8.css" media="(max-width: 800px)">
+  <script src="Aufgabe_8.js" async></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+
+<body>
+  <header>
+    <h1 class="webtitel">Reservierung</h1>
+  </header>
+  <nav>
+    <a href="Aufgabe_8_index.html" class="navigator">Überblick</a> |
+    <a href="" class="navigator" style="pointer-events: none;">Reservation</a> |
+    <a href="" class="navigator">Klassiker</a> |
+    <a href="https://www.netflix.com/de/" class="navigator">Netflix</a>
+  </nav>
+
+  <h2>Verfügbare Plätze:</h2>
+  <div id="currentSeats"></div>
+  <table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Sitzreihe 1</th>
+        <th scope="col">Sitzreihe 2</th>
+        <th scope="col">Sitzreihe 3</th>
+        <th scope="col">Sitzreihe 4</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td colspan="4">Leinwand</td>
+    </tr>
+    <tr>
+        <td id="platz0">2</td>
+        <td id="platz1">Jacob</td>
+        <td id="platz2">Thornton</td>
+        <td id="platz3">@fat</td>
+    </tr>
+    <tr>
+        <td id="platz4">3</td>
+        <td id="platz5">Larry</td>
+        <td id="platz6">the Bird</td>
+        <td id="platz7">@twitter</td>
+    </tr>
+    <tr>
+        <td id="platz8">3</td>
+        <td id="platz9">Larry</td>
+        <td id="platz10">the Bird</td>
+        <td id="platz11">@twitter</td>
+    </tr>
+    <tr>
+        <td id="platz12">3</td>
+        <td id="platz13">Larry</td>
+        <td id="platz14">the Bird</td>
+        <td id="platz15">@twitter</td>
+    </tr>
+    </tbody>
+</table>
+  <br>
+  <h2>Platz buchen</h2>
+  <form>
+    <div>
+        <label>Sitzplatz
+            <select id="selector">
+              <option id="options">Heino</option>
+            </select>
+          </label>
+    </div>
+  </form>
+
+</body>
+
+</html>
