@@ -1,0 +1,5 @@
+*Aufgabe 1:*
+outerHTML ist das HTML eines Elements mitsamt dem Element selber. outerHTML schließt also den Elementknoten (öffnendes und schließendes Tag) ein – 
+das ist der Unterschied zur Eigenschaft innerHTML eines Elements, das aus dem HTML innerhalb der öffnenden und schließenden Tags besteht.
+OuterHTML überschreibt das Element, während innerHTML alle Kinder, aber nicht das Element selber ersetzt. Wenn auf dem Element Event Handler sitzen, 
+löscht outerHTML auch die Event Handler.

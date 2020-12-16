@@ -10,10 +10,11 @@ let availableSeats = ["a1", "a2", "a3", "a4", "b1", "b2", "b3", "b4", "c1", "c2"
 let table = document.createElement("table");
 table.setAttribute("border", "1");
 let row = table.insertRow(0);
+row.id="row";
 for (j = 0; j < availableSeats.length; j++) {
   let text = document.createTextNode(availableSeats[j]);
   let cell = row.insertCell(j);
-  cell.onclick = function () { };
+  cell.onclick = function () {setReservation(cell);};
   cell.appendChild(text);
 }
 document.getElementById("currentSeats").appendChild(table);
@@ -25,16 +26,20 @@ function setReservation(value) {
   for (i = 0; i < row.children.length; i++) {
     if (row.children[i] == value) {
       let text = row.children[i].innerHTML;
-
+      let reserviert = document.getElementById("sitze");
+      if(reserviert.innerHTML==""){reserviert.innerHTML=text}
+      else{reserviert.innerHTML+=",";
+      reserviert.innerHTML+=text}
       row.deleteCell(i);
     }
   }
 }
-
 //Attribute löschen um einen Event-Listener erweitern!
-function deleteReservation() { }
-
-
+//Attribute löschen um einen Event-Listener erweitern!
+document.getElementById("button").onclick = function deleteReservation() {
+  let reserviert = document.getElementById("sitze");
+  reserviert.outerHTML ="<h1>Inhalt gelöscht</h1>"
+}
 
 
 
