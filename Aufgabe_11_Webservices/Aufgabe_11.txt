@@ -1,0 +1,7 @@
+*Aufgabe 1*
+- Mittels Promises ist der Code übersichtlicher und es ist offensichtlicher, ob die operation das gewünsche Ergebnis gebracht hat oder nicht.
+- Der Status ist leicht ablesbar ("fulfilled" oder "rejected")
+- Promises lassen sich vielseitig einsetzen und sind hervorragend für komplexe asynchrone Operationen geeignet. 
+
+*Aufgabe 2*
+- 
