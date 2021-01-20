@@ -1,0 +1,18 @@
+**Aufgabe 1**
+Node: Node.js ist eine plattformübergreifende Open-Source-JavaScript-Laufzeitumgebung, die JavaScript-Code außerhalb eines Webbrowsers ausführen kann.
+npm:npm ist ein Paketmanager für die JavaScript-Laufzeitumgebung Node.js. Unter dem Namen npm Registry bzw. npm Open Source wird ein Repository mit 350.000 Paketen betrieben
+npx: führt die Node-pakete aus.
+React: ist eine JavaScript-Softwarebibliothek, die ein Grundgerüst für die Ausgabe von User-Interface-Komponenten von Webseiten zur Verfügung stellt (Webframework). 
+React bildet typischerweise die Basis für Single-Page-Webanwendungen, kann jedoch auch mittels Node.js serverseitig (vor-)gerendert werden.
+
+**Aufgabe 2**
+__App.css/index.css: Datein für die Stylesheets.
+__App.test.js/setupTests.js: zum Durchführen von Tests.
+__index.js: JavaScript-Quellcode.
+__logo.svg: Logo von React.
+__.gitignore: Dateien, die beim Upload ins Repository nicht commited und gepusht werden sollen.
+__package-lock.json: wird automatisch für alle Operationen erzeugt, bei denen npm entweder den node_modules-Baum oder package.json ändert.
+__package.json: wird zum Speichern der mit dem Projekt verbundenen Metadaten sowie zum Speichern der Liste der Dependency-packages verwendet. 
+Die Datei erleichtert anderen die Verwaltung und Installation der mit dem Projekt verbundenen Pakete
+__reportWebVitals.js: Standardmäßig enthält Create React App einen Performance-Relayer, 
+mit dem die Leistung der Anwendung anhand verschiedener Metriken gemessen und analysiert werden kann.
